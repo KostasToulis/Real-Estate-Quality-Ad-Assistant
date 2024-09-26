@@ -34,15 +34,15 @@ def paraphrase(text,API_key):
     return chat_completion.choices[0].message.content
 
 def multiple_paraphrase(text):
-    a = paraphrase(text,"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")
+    a = paraphrase(text,"KEY 1")
     print(a)
     print('\nDone 1\n')
     time.sleep(1.5)
-    b = paraphrase(text,'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')
+    b = paraphrase(text,'KEY 2')
     print(b)
     print('\nDone 2\n')
     time.sleep(1.5)
-    c = paraphrase(text,'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')
+    c = paraphrase(text,'KEY 3')
     print(c)
     print('\nDone 3\n')
     time.sleep(1.5)
