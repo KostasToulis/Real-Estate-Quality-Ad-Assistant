@@ -7,7 +7,7 @@ import logging
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-API = "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"
+API = "INSERT YOUR KEY"
 
 
 
@@ -76,7 +76,7 @@ def update_csv(input_file, output_file,api_keys):
 # Usage
 input_file = "C:\\Users\\jtsou\\Documents\\University\\MSc Business Analytics\\3rd Semester\\Machine Learning and Content Analytics\\Project\\ads_final.xlsx"
 output_file = "C:\\Users\\jtsou\Documents\\University\\MSc Business Analytics\\3rd Semester\\Machine Learning and Content Analytics\\Project\\ads_groq_output_test.csv"
-api_list = ['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',
-            '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',
-            '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']
+api_list = ['KEY 1',
+            'KEY 2',
+            'KEY 3']
 update_csv(input_file, output_file,api_list)
